@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.toggleBtn {
+  display: none;
+}
+.hero__section {
+  width: 100%;
+  height: 740px;
+  background-image: url(../imgs/james-barr-zy5JTdcC0fE-unsplash\ 1hero-img.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px;
+}
+
+.inner-container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.nav__list {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-right: 92px;
+}
+
+.nav__list-item {
+  font-family: "Lato";
+  list-style: none;
+  /* You can remove bullets points by wither using list-style or changing the display.  */
+  color: #a6a6a6;
+}
+
+.nav__link {
+  color: inherit;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+.nav__link:hover {
+  text-decoration: underline solid 2px;
+  color: #404040;
+  font-weight: 500;
+}
+
+.nav__list-item + .nav__list-item {
+  margin-left: 30px;
+}
+
+.profile {
+  margin-top: calc(181px - 71px);
+  width: 100%;
+  max-width: 467px;
+  color: #404040;
+}
+
+.name {
+  font-size: 58px;
+  line-height: 58px;
+  font-weight: 700;
+  font-family: "Lato";
+  margin-bottom: 34px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato";
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  padding: 26px 62px;
+  background-color: transparent;
+  color: #404040;
+  line-height: 22px;
+}
+
+.icon_list {
+  position: absolute;
+  bottom: 55.59px;
+  right: 100px;
+}
+
+.icon__list-item {
+  display: flex;
+  font-size: 24px;
+}
+
+.icon__list-item + .icon__list-item {
+  margin-top: 29.5px;
+}
+.icon_link {
+  color: #404040;
+}
+.about-me {
+  background: #f2f2f2;
+  width: 100vw;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+}
+
+.image-wrapper {
+  height: 636.78px;
+  width: 505px;
+  flex-shrink: 0;
+  margin-right: 19.92px;
+  margin-top: 69px;
+}
+.about-image {
+  width: 100%;
+  height: 100%;
+}
+.about-text{
+  margin-right: 100px;
+  margin-top: 145px;
+  margin-bottom: 40px;
+}
+.about-heading {
+  display: none;
+  color: #404040;
+}
+.about-p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #404040;
+}
+
+.about-p + .about-p {
+ margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav__list {
+    display: none;
+  }
+  .icon_list {
+    display: none;
+  }
+  .profile {
+    margin-bottom: 20px;
+    color: white;
+    max-width: 284px;
+  }
+
+  .hero__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .name {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+
+  .description {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+
+  .toggleBtn {
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-top: 37px;
+  }
+  .hero__section {
+    width: 100%;
+    height: 896px;
+    background-image: url(../imgs/hero\ image\ mobile.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+  }
+}
