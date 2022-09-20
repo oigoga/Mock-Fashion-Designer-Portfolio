@@ -14,7 +14,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
+
     <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/mediaqueries.css" />
     <title>Document</title>
   </head>
   <body>
@@ -102,50 +104,92 @@
       </ul>
     </section>
     <section class="about-me">
-      <div class="inner-container about-section">
+      <div class="inner-container about-section-wrapper">
         <aside class="image-wrapper">
-          <img class="about-image" src="../imgs/autri-taheri-Vj2zHsZ1uqw-unsplash 1.png" alt="" />
+          <img
+            src="../imgs/autri-taheri-Vj2zHsZ1uqw-unsplash 1.png"
+            alt="about image"
+            class="about-image"
+          />
         </aside>
         <div class="about-text">
-          <h3 class="about-heading  ">About me</h3>
-          <p class="about-p">
-            Paul Amusan is a young, energetic, and talented fashion designer who
-            focuses on his men’s clothing line, Paul Amusan. His work draws
-            inspiration from local Nigerian fabrics coupled with Japanese
-            tailoring designs. His designs are masculine, yet modern and trendy
-            by way of transforming an ordinary look into a sophisticated design
-            that embraces elegance.
-          </p>
-          <p class="about-p">
-            I began acquired his love for fashion when he was a young boy where
-            he spent his time sketching and drawing. He loves to work with
-            colors, and his awesome talent has seen his pieces worn by famous
-            politicians and celebrities. Young and successful, he is a talented
-            fashion designer to watch out for as his name continues to cause
-            ripples in both the local and global fashion industries.
-          </p>
-          <p class="about-p">
-            While in New York, I was employed in the Charivari Boutique where
-            president of the company, Barbara Weiser, noticed my potential and
-            passion for unique fashion and helped me launch my first fashion
-            collection. My passion for African fashion is profound. “Everything
-            begins for me with the print and fabric, which usually has some
-            shine,” exclaims Faturoti. My deep African roots, as well as
-            extensive global experience with having lived and worked in New York
-            and Milan have been instrumental in her success and international
-            spotlight.
-          </p>
-          <p class="about-p">
-            My pieces are also sold globally in the UK, US, and France. Anthony
-            uses his talent to make an impact on the community through a
-            mentoring program he runs that helps young and upcoming Nigerian
-            designers excel and compete on a global platform. Nature, colors,
-            and artwork are his main sources of inspiration.
-          </p>
+          <h3 class="about-heading">About Me</h3>
+          <div class="paragraph">
+            <p class="about-p">
+              Paul Amusa|n is a young, energetic, and talented fashion designer who
+              focuses on his men’s clothing line, Paul Amusan. His work draws
+              inspiration from local Nigerian fabrics coupled with Japanese
+              tailoring designs. His designs are masculine, yet modern and trendy
+              by way of transforming an ordinary look into a sophisticated design
+              that embraces elegance.
+            </p>
+            <p class="about-p">
+              I began acquired his love for fashion when he was a young boy where
+              he spent his time sketching and drawing. He loves to work with
+              colors, and his awesome talent has seen his pieces worn by famous
+              politicians and celebrities. Young and successful, he is a talented
+              fashion designer to watch out for as his name continues to cause
+              ripples in both the local and global fashion industries.
+            </p>
+            <p class="about-p">
+              While in New York, I was employed in the Charivari Boutique where
+              president of the company, Barbara Weiser, noticed my potential and
+              passion for unique fashion and helped me launch my first fashion
+              collection. My passion for African fashion is profound. “Everything
+              begins for me with the print and fabric, which usually has some
+              shine,” exclaims Faturoti. My deep African roots, as well as
+              extensive global experience with having lived and worked in New York
+              and Milan have been instrumental in her success and international
+              spotlight
+            </p>
+            <p class="about-p">
+              My pieces are also sold globally in the UK, US, and France. Anthony
+              uses his talent to make an impact on the community through a
+              mentoring program he runs that helps young and upcoming Nigerian
+              designers excel and compete on a global platform. Nature, colors,
+              and artwork are his main sources of inspiration.
+            </p>
+          </div>
+          
         </div>
       </div>
     </section>
-    <section class="gallery"></section>
+    <section class="">
+      <div class="inner-container">
+        <div class="gallery-top">
+          <h3 class="gallery-heading">
+           Gallery
+          </h3>
+          <p class="gallery-p">
+            Have a look at a collection of my recent works.
+          </p>
+        </div>
+        <div class="gallery">
+          <div class="gallery-items">
+            <img src="../imgs/daniel-schaffer-l8XuuamEfYU-unsplash 1.png" alt="" class="gallery-image">
+          </div>
+          <div class="gallery-items">
+            <img src="../imgs/joanna-nix-walkup-IRi-FlOdjFU-unsplash 1.png" class="gallery-image" alt="">
+          </div>
+          <div class="gallery-items">
+            <img src="../imgs/nick-karvounis-0lzxrijewmY-unsplash 1.png" class="gallery-image" alt="">
+          </div>
+          <div class="gallery-items">
+            <img src="../imgs/analise-benevides-Y9O5u1kwdbk-unsplash 1.png" class="gallery-image" alt="">
+          </div>
+          <div class="gallery-items">
+            <img src="../imgs/peter-sjo-Nxy-6QwGMzA-unsplash 1.png" class="gallery-image" alt="">
+          </div>
+          <div class="gallery-items">
+            <img src="../imgs/hls-44-oCwkft-Juug-unsplash 1.png" class="gallery-image" alt="">
+          </div>
+
+        </div>
+        <button class="btn gallery-btn">View More <i class="fa-light fa-arrow-right"></i></button>
+        
+      </div>
+      
+    </section>
     <section class="clients"></section>
     <section class="contact-me">
       <form action=""></form>
@@ -153,11 +197,3 @@
     <footer></footer>
   </body>
 </html>
-
-echo "# Mock-Fashion-Designer-Portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/oigoga/Mock-Fashion-Designer-Portfolio.git
-git push -u origin main
